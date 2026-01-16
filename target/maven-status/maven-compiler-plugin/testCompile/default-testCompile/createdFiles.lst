@@ -1,0 +1,9 @@
+models/User.class
+domain/ProductsTest.class
+domain/UsersTest.class
+domain/CartsTest.class
+utils/ApiUtils.class
+schema/SchemaValidator.class
+models/Cart.class
+base/BaseTest.class
+auth/AuthManager.class
