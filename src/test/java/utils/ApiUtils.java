@@ -10,7 +10,8 @@ public class ApiUtils {
     }
 
     public static Response post(String endpoint, String body) {
-        return RestAssured.given().header("Content-Type", "application/json").body(body).post(endpoint);
+        return RestAssured.given()
+                .header("Content-Type", "application/json").body(body).post(endpoint);
     }
 
     public static Response put(String endpoint, String body) {
@@ -19,5 +20,6 @@ public class ApiUtils {
 
     public static Response delete(String endpoint) {
         return RestAssured.delete(endpoint);
+
     }
 }
