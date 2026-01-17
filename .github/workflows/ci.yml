@@ -31,7 +31,13 @@ jobs:
       run: mvn clean test
 
     - name: Install Allure CLI
-      uses: firefoxmetzger/gha-install-allure@v1
+      run: |
+        sudo apt update
+        sudo apt install -y wget default-jre
+        wget https://github.com/allure-framework/allure2/releases/download/2.24.0/allure-2.24.0.tgz
+        tar -zxvf allure-2.24.0.tgz
+        sudo mv allure-2.24.0 /opt/allure
+        sudo ln -s /opt/allure/bin/allure /usr/bin/allure
 
     - name: Generate Allure HTML report
       run: allure generate allure-results --clean -o allure-report
