@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.432" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.565" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@21/21.0.9/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/edwin/Desktop/Rose/Projects/ecommerce-api-automation-suite/target/surefire 2026-01-17T12-00-17_403-jvmRun1 surefire-20260117120017589_1tmp surefire_0-20260117120017589_2tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/edwin/Desktop/Rose/Projects/ecommerce-api-automation-suite/target/surefire 2026-01-17T12-06-27_901-jvmRun1 surefire-20260117120628044_1tmp surefire_0-20260117120628044_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/edwin/Desktop/Rose/Projects/ecommerce-api-automation-suite/target/test-classes:/Users/edwin/Desktop/Rose/Projects/ecommerce-api-automation-suite/target/classes:/Users/edwin/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/edwin/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/edwin/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/edwin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/edwin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/edwin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/edwin/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/edwin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/edwin/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/edwin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/edwin/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/edwin/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/edwin/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/edwin/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/edwin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/edwin/.m2/repository/io/rest-assured/json-schema-validator/5.3.0/json-schema-validator-5.3.0.jar:/Users/edwin/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/edwin/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/edwin/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/edwin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/edwin/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/edwin/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/edwin/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/edwin/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/edwin/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/edwin/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/edwin/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/edwin/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/edwin/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/edwin/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/edwin/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/edwin/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/edwin/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/edwin/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/edwin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/edwin/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/edwin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/edwin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/edwin/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/edwin/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/edwin/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/edwin/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/edwin/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:/Users/edwin/.m2/repository/io/qameta/allure/allure-rest-assured/2.18.1/allure-rest-assured-2.18.1.jar:/Users/edwin/.m2/repository/io/qameta/allure/allure-attachments/2.18.1/allure-attachments-2.18.1.jar:/Users/edwin/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/edwin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/edwin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/edwin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
@@ -58,24 +58,24 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="createUser" classname="domain.UsersTest" time="2.641">
+  <testcase name="createUser" classname="domain.UsersTest" time="2.561">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="deleteUser" classname="domain.UsersTest" time="0.857"/>
-  <testcase name="getAllUsers" classname="domain.UsersTest" time="1.064"/>
-  <testcase name="getUserById" classname="domain.UsersTest" time="0.689"/>
-  <testcase name="updateUser" classname="domain.UsersTest" time="0.403"/>
-  <testcase name="createCart" classname="domain.CartsTest" time="0.463"/>
-  <testcase name="deleteCart" classname="domain.CartsTest" time="0.601"/>
-  <testcase name="getAllCarts" classname="domain.CartsTest" time="0.616"/>
-  <testcase name="getCartById" classname="domain.CartsTest" time="0.532"/>
-  <testcase name="updateCart" classname="domain.CartsTest" time="0.47"/>
-  <testcase name="createProduct" classname="domain.ProductsTest" time="0.911"/>
-  <testcase name="deleteProduct" classname="domain.ProductsTest" time="0.811"/>
-  <testcase name="getAllProducts" classname="domain.ProductsTest" time="1.829"/>
-  <testcase name="getProductById" classname="domain.ProductsTest" time="0.455"/>
-  <testcase name="updateProduct" classname="domain.ProductsTest" time="1.035"/>
+  <testcase name="deleteUser" classname="domain.UsersTest" time="0.772"/>
+  <testcase name="getAllUsers" classname="domain.UsersTest" time="1.058"/>
+  <testcase name="getUserById" classname="domain.UsersTest" time="0.685"/>
+  <testcase name="updateUser" classname="domain.UsersTest" time="0.454"/>
+  <testcase name="createCart" classname="domain.CartsTest" time="0.436"/>
+  <testcase name="deleteCart" classname="domain.CartsTest" time="0.674"/>
+  <testcase name="getAllCarts" classname="domain.CartsTest" time="0.624"/>
+  <testcase name="getCartById" classname="domain.CartsTest" time="0.498"/>
+  <testcase name="updateCart" classname="domain.CartsTest" time="0.405"/>
+  <testcase name="createProduct" classname="domain.ProductsTest" time="0.455"/>
+  <testcase name="deleteProduct" classname="domain.ProductsTest" time="0.547"/>
+  <testcase name="getAllProducts" classname="domain.ProductsTest" time="1.353"/>
+  <testcase name="getProductById" classname="domain.ProductsTest" time="0.47"/>
+  <testcase name="updateProduct" classname="domain.ProductsTest" time="1.347"/>
 </testsuite>
